@@ -1,0 +1,6 @@
+HAULWAY FUEL
+Merchant: Haulway Fuel
+Date: 2026-11-09
+Subtotal: $15.00
+Sales Tax (8.25%): $1.24
+Total: $16.20

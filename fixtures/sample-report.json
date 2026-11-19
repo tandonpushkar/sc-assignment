@@ -1,0 +1,634 @@
+[
+  {
+    "id": "invoice",
+    "title": "Aggregate delivery",
+    "kind": "Invoice",
+    "fields": [
+      {
+        "label": "Supplier",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "site-invoice.pdf",
+            "page": 1,
+            "line": 3,
+            "raw": "North Quarry Supply",
+            "method": "PDF text",
+            "value": "north quarry supply",
+            "alias": "vendor"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "accounts-scan.jpg",
+            "page": 1,
+            "line": 2,
+            "raw": "North Quarry Supply",
+            "method": "OCR",
+            "value": "north quarry supply",
+            "alias": "vendor"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "North Quarry Supply"
+      },
+      {
+        "label": "Invoice number",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "site-invoice.pdf",
+            "page": 1,
+            "line": 4,
+            "raw": "INV-1048",
+            "method": "PDF text",
+            "value": "inv-1048",
+            "alias": "invoice #"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "accounts-scan.jpg",
+            "page": 1,
+            "line": 3,
+            "raw": "INV-1048",
+            "method": "OCR",
+            "value": "inv-1048",
+            "alias": "invoice #"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "INV-1048"
+      },
+      {
+        "label": "Date",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "site-invoice.pdf",
+            "page": 1,
+            "line": 5,
+            "raw": "2026-11-07",
+            "method": "PDF text",
+            "value": "2026-11-07",
+            "alias": "invoice date"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "accounts-scan.jpg",
+            "page": 1,
+            "line": 5,
+            "raw": "2026-11-07",
+            "method": "OCR",
+            "value": "2026-11-07",
+            "alias": "invoice date"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "2026-11-07"
+      },
+      {
+        "label": "Purchase order",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "site-invoice.pdf",
+            "page": 1,
+            "line": 6,
+            "raw": "PO-221",
+            "method": "PDF text",
+            "value": "po-221",
+            "alias": "po #"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "accounts-scan.jpg",
+            "page": 1,
+            "line": 7,
+            "raw": "PO-221",
+            "method": "OCR",
+            "value": "po-221",
+            "alias": "po #"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "PO-221"
+      },
+      {
+        "label": "Total (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "site-invoice.pdf",
+            "page": 1,
+            "line": 8,
+            "raw": "$1,250.00",
+            "method": "PDF text",
+            "value": "1250.00",
+            "alias": "invoice total"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "accounts-scan.jpg",
+            "page": 1,
+            "line": 9,
+            "raw": "$1,205.00",
+            "method": "OCR",
+            "value": "1205.00",
+            "alias": "invoice total"
+          }
+        ],
+        "issue": "Conflict",
+        "status": "Conflict",
+        "value": ""
+      }
+    ],
+    "flags": [
+      {
+        "label": "Total (USD)",
+        "reason": "Conflict"
+      }
+    ]
+  },
+  {
+    "id": "order",
+    "title": "Aggregate purchase",
+    "kind": "Purchase order",
+    "fields": [
+      {
+        "label": "Supplier",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "purchase-order.pdf",
+            "page": 1,
+            "line": 3,
+            "raw": "North Quarry Supply",
+            "method": "PDF text",
+            "value": "north quarry supply",
+            "alias": "supplier"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "North Quarry Supply"
+      },
+      {
+        "label": "Purchase order",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "purchase-order.pdf",
+            "page": 1,
+            "line": 4,
+            "raw": "PO-221",
+            "method": "PDF text",
+            "value": "po-221",
+            "alias": "po #"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "PO-221"
+      },
+      {
+        "label": "Date",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "purchase-order.pdf",
+            "page": 1,
+            "line": 5,
+            "raw": "2026-11-04",
+            "method": "PDF text",
+            "value": "2026-11-04",
+            "alias": "order date"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "2026-11-04"
+      },
+      {
+        "label": "Item",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "purchase-order.pdf",
+            "page": 1,
+            "line": 6,
+            "raw": "Graded aggregate",
+            "method": "PDF text",
+            "value": "graded aggregate",
+            "alias": "item"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "Graded aggregate"
+      },
+      {
+        "label": "Quantity",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "purchase-order.pdf",
+            "page": 1,
+            "line": 7,
+            "raw": "25 tons",
+            "method": "PDF text",
+            "value": "25 tons",
+            "alias": "quantity"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "25 tons"
+      },
+      {
+        "label": "Total (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "purchase-order.pdf",
+            "page": 1,
+            "line": 8,
+            "raw": "$1,250.00",
+            "method": "PDF text",
+            "value": "1250.00",
+            "alias": "order total"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "$1,250.00"
+      }
+    ],
+    "flags": []
+  },
+  {
+    "id": "fuel",
+    "title": "Fuel receipt",
+    "kind": "Receipt",
+    "fields": [
+      {
+        "label": "Merchant",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "fuel-receipt.txt",
+            "page": 1,
+            "line": 2,
+            "raw": "Haulway Fuel",
+            "method": "Text",
+            "value": "haulway fuel",
+            "alias": "merchant"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "Haulway Fuel"
+      },
+      {
+        "label": "Date",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "fuel-receipt.txt",
+            "page": 1,
+            "line": 3,
+            "raw": "2026-11-08",
+            "method": "Text",
+            "value": "2026-11-08",
+            "alias": "date"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "2026-11-08"
+      },
+      {
+        "label": "Tax (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "fuel-receipt.txt",
+            "page": 1,
+            "line": 5,
+            "raw": "",
+            "method": "Text",
+            "value": null,
+            "alias": "tax"
+          }
+        ],
+        "issue": "Missing",
+        "status": "Missing",
+        "value": ""
+      },
+      {
+        "label": "Total (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "fuel-receipt.txt",
+            "page": 1,
+            "line": 4,
+            "raw": "$86.40",
+            "method": "Text",
+            "value": "86.40",
+            "alias": "receipt total"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "$86.40"
+      }
+    ],
+    "flags": [
+      {
+        "label": "Tax (USD)",
+        "reason": "Missing"
+      }
+    ]
+  },
+  {
+    "id": "rebar-073",
+    "title": "Rebar delivery",
+    "kind": "Invoice",
+    "fields": [
+      {
+        "label": "Supplier",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "rebar-yard.txt",
+            "page": 1,
+            "line": 3,
+            "raw": "Summit Steel",
+            "method": "Text",
+            "value": "summit steel",
+            "alias": "vendor"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "rebar-office.txt",
+            "page": 1,
+            "line": 3,
+            "raw": "SUMMIT STEEL",
+            "method": "Text",
+            "value": "summit steel",
+            "alias": "vendor"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "Summit Steel"
+      },
+      {
+        "label": "Invoice number",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "rebar-yard.txt",
+            "page": 1,
+            "line": 2,
+            "raw": "RB-073",
+            "method": "Text",
+            "value": "rb-073",
+            "alias": "invoice no"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "rebar-office.txt",
+            "page": 1,
+            "line": 2,
+            "raw": "RB-073",
+            "method": "Text",
+            "value": "rb-073",
+            "alias": "invoice number"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "RB-073"
+      },
+      {
+        "label": "Date",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "rebar-yard.txt",
+            "page": 1,
+            "line": 4,
+            "raw": "2026/11/07",
+            "method": "Text",
+            "value": "2026-11-07",
+            "alias": "invoice date"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "rebar-office.txt",
+            "page": 1,
+            "line": 4,
+            "raw": "2026-11-07",
+            "method": "Text",
+            "value": "2026-11-07",
+            "alias": "invoice date"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "2026/11/07"
+      },
+      {
+        "label": "Purchase order",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "rebar-yard.txt",
+            "page": 1,
+            "line": 5,
+            "raw": "PO-117",
+            "method": "Text",
+            "value": "po-117",
+            "alias": "po no"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "rebar-office.txt",
+            "page": 1,
+            "line": 5,
+            "raw": "PO-117",
+            "method": "Text",
+            "value": "po-117",
+            "alias": "po #"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "PO-117"
+      },
+      {
+        "label": "Total (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "rebar-yard.txt",
+            "page": 1,
+            "line": 6,
+            "raw": "USD 4,088.00",
+            "method": "Text",
+            "value": "4088.00",
+            "alias": "invoice total"
+          },
+          {
+            "sourceIndex": 1,
+            "file": "rebar-office.txt",
+            "page": 1,
+            "line": 6,
+            "raw": "$4,880.00",
+            "method": "Text",
+            "value": "4880.00",
+            "alias": "invoice total"
+          }
+        ],
+        "issue": "Conflict",
+        "status": "Conflict",
+        "value": ""
+      }
+    ],
+    "flags": [
+      {
+        "label": "Total (USD)",
+        "reason": "Conflict"
+      }
+    ]
+  },
+  {
+    "id": "co-014",
+    "title": "Temporary shoring credit",
+    "kind": "Change order",
+    "fields": [
+      {
+        "label": "Change order number",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "co-014.txt",
+            "page": 1,
+            "line": 2,
+            "raw": "CO-014",
+            "method": "Text",
+            "value": "co-014",
+            "alias": "change order #"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "CO-014"
+      },
+      {
+        "label": "Prior contract (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "co-014.txt",
+            "page": 1,
+            "line": 3,
+            "raw": "$250,000.00",
+            "method": "Text",
+            "value": "250000.00",
+            "alias": "prior contract"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "$250,000.00"
+      },
+      {
+        "label": "Change (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "co-014.txt",
+            "page": 1,
+            "line": 4,
+            "raw": "$12,500.00",
+            "method": "Text",
+            "value": "-12500.00",
+            "alias": "deduction"
+          }
+        ],
+        "issue": null,
+        "status": "Extracted",
+        "value": "-12500.00"
+      },
+      {
+        "label": "Revised contract (USD)",
+        "evidence": [
+          {
+            "sourceIndex": 0,
+            "file": "co-014.txt",
+            "page": 1,
+            "line": 5,
+            "raw": "$262,500.00",
+            "method": "Text",
+            "value": "262500.00",
+            "alias": "revised contract"
+          }
+        ],
+        "issue": "Amount mismatch",
+        "status": "Amount mismatch",
+        "value": "",
+        "checks": [
+          {
+            "expected": "237500.00",
+            "inputs": [
+              {
+                "sourceIndex": 0,
+                "file": "co-014.txt",
+                "page": 1,
+                "line": 3,
+                "raw": "$250,000.00",
+                "method": "Text",
+                "value": "250000.00",
+                "alias": "prior contract",
+                "label": "Prior contract (USD)"
+              },
+              {
+                "sourceIndex": 0,
+                "file": "co-014.txt",
+                "page": 1,
+                "line": 4,
+                "raw": "$12,500.00",
+                "method": "Text",
+                "value": "-12500.00",
+                "alias": "deduction",
+                "label": "Change (USD)"
+              },
+              {
+                "sourceIndex": 0,
+                "file": "co-014.txt",
+                "page": 1,
+                "line": 5,
+                "raw": "$262,500.00",
+                "method": "Text",
+                "value": "262500.00",
+                "alias": "revised contract",
+                "label": "Revised contract (USD)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "flags": [
+      {
+        "label": "Revised contract (USD)",
+        "reason": "Amount mismatch"
+      }
+    ]
+  }
+]

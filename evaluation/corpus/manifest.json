@@ -1,0 +1,262 @@
+[
+  {
+    "id": "inv-clean-pdf",
+    "title": "inv-clean-pdf",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-clean.pdf"
+    ]
+  },
+  {
+    "id": "inv-multipage-pdf",
+    "title": "inv-multipage-pdf",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-two-page.pdf"
+    ]
+  },
+  {
+    "id": "inv-pdf-and-photo-agree",
+    "title": "inv-pdf-and-photo-agree",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-agree.pdf",
+      "files/inv-agree-photo.jpg"
+    ]
+  },
+  {
+    "id": "inv-pdf-and-scan-disagree",
+    "title": "inv-pdf-and-scan-disagree",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-conflict.pdf",
+      "files/inv-conflict-scan.jpg"
+    ]
+  },
+  {
+    "id": "inv-partial-payment",
+    "title": "inv-partial-payment",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-partial.pdf"
+    ]
+  },
+  {
+    "id": "inv-missing-po",
+    "title": "inv-missing-po",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-no-po.pdf"
+    ]
+  },
+  {
+    "id": "inv-ambiguous-date",
+    "title": "inv-ambiguous-date",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-slash-date.pdf"
+    ]
+  },
+  {
+    "id": "inv-written-date",
+    "title": "inv-written-date",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-long-date.pdf"
+    ]
+  },
+  {
+    "id": "inv-dark-mode-screenshot",
+    "title": "inv-dark-mode-screenshot",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-dark.jpg"
+    ]
+  },
+  {
+    "id": "inv-digital-with-logo",
+    "title": "inv-digital-with-logo",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-logo.pdf"
+    ]
+  },
+  {
+    "id": "inv-sideways-photo",
+    "title": "inv-sideways-photo",
+    "kind": "Invoice",
+    "files": [
+      "files/inv-sideways.jpg"
+    ]
+  },
+  {
+    "id": "po-clean-pdf",
+    "title": "po-clean-pdf",
+    "kind": "Purchase order",
+    "files": [
+      "files/po-clean.pdf"
+    ]
+  },
+  {
+    "id": "po-quantity-conflict",
+    "title": "po-quantity-conflict",
+    "kind": "Purchase order",
+    "files": [
+      "files/po-yard.txt",
+      "files/po-office.txt"
+    ]
+  },
+  {
+    "id": "po-rotated-scan",
+    "title": "po-rotated-scan",
+    "kind": "Purchase order",
+    "files": [
+      "files/po-rotated.jpg"
+    ]
+  },
+  {
+    "id": "receipt-skewed-photo",
+    "title": "receipt-skewed-photo",
+    "kind": "Receipt",
+    "files": [
+      "files/rcpt-photo.jpg"
+    ]
+  },
+  {
+    "id": "receipt-missing-tax",
+    "title": "receipt-missing-tax",
+    "kind": "Receipt",
+    "files": [
+      "files/rcpt-no-tax.txt"
+    ]
+  },
+  {
+    "id": "receipt-zero-tax",
+    "title": "receipt-zero-tax",
+    "kind": "Receipt",
+    "files": [
+      "files/rcpt-zero-tax.txt"
+    ]
+  },
+  {
+    "id": "receipt-transparent-png",
+    "title": "receipt-transparent-png",
+    "kind": "Receipt",
+    "files": [
+      "files/rcpt-transparent.png"
+    ]
+  },
+  {
+    "id": "receipt-windows-text",
+    "title": "receipt-windows-text",
+    "kind": "Receipt",
+    "files": [
+      "files/rcpt-cafe.txt"
+    ]
+  },
+  {
+    "id": "receipt-labelled-with-rate",
+    "title": "receipt-labelled-with-rate",
+    "kind": "Receipt",
+    "files": [
+      "files/rcpt-unlabeled-tax.txt"
+    ]
+  },
+  {
+    "id": "co-correct-pdf",
+    "title": "co-correct-pdf",
+    "kind": "Change order",
+    "files": [
+      "files/co-correct.pdf"
+    ]
+  },
+  {
+    "id": "co-wrong-sum-scan",
+    "title": "co-wrong-sum-scan",
+    "kind": "Change order",
+    "files": [
+      "files/co-wrong-sum.jpg"
+    ]
+  },
+  {
+    "id": "co-credit-in-parentheses",
+    "title": "co-credit-in-parentheses",
+    "kind": "Change order",
+    "files": [
+      "files/co-parens.pdf"
+    ]
+  },
+  {
+    "id": "co-missing-change",
+    "title": "co-missing-change",
+    "kind": "Change order",
+    "files": [
+      "files/co-blank-change.pdf"
+    ]
+  },
+  {
+    "id": "co-copies-disagree",
+    "title": "co-copies-disagree",
+    "kind": "Change order",
+    "files": [
+      "files/co-yard.txt",
+      "files/co-office.txt"
+    ]
+  },
+  {
+    "id": "co-mixed-text-and-scan-correct",
+    "title": "co-mixed-text-and-scan-correct",
+    "kind": "Change order",
+    "files": [
+      "files/co-mixed-correct.pdf"
+    ]
+  },
+  {
+    "id": "co-mixed-text-and-scan-wrong",
+    "title": "co-mixed-text-and-scan-wrong",
+    "kind": "Change order",
+    "files": [
+      "files/co-mixed-wrong.pdf"
+    ]
+  },
+  {
+    "id": "co-multipage-tiff",
+    "title": "co-multipage-tiff",
+    "kind": "Change order",
+    "files": [
+      "files/co-two-page.tiff"
+    ]
+  },
+  {
+    "id": "co-dim-skewed-photo",
+    "title": "co-dim-skewed-photo",
+    "kind": "Change order",
+    "files": [
+      "files/co-dim-photo.jpg"
+    ]
+  },
+  {
+    "id": "co-low-res-photo",
+    "title": "co-low-res-photo",
+    "kind": "Change order",
+    "files": [
+      "files/co-low-res.png"
+    ]
+  },
+  {
+    "id": "co-tiny-thumbnail",
+    "title": "co-tiny-thumbnail",
+    "kind": "Change order",
+    "files": [
+      "files/co-tiny.png"
+    ]
+  },
+  {
+    "id": "co-slashed-zero-font",
+    "title": "co-slashed-zero-font",
+    "kind": "Change order",
+    "files": [
+      "files/co-slashed-zero.png"
+    ]
+  }
+]

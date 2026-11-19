@@ -1,0 +1,1 @@
+{"platforms":["android","apple"],"android":{"modules":["expo.modules.fielddesk.FielddeskReader"]},"apple":{"modules":["FielddeskReader"]}}

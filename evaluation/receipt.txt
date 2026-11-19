@@ -1,0 +1,4 @@
+Merchant: West Yard Fuel
+Date: 11/06/26
+Tax: $0
+Total: $75.00

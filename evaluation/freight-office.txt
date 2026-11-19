@@ -1,0 +1,5 @@
+Freight reimbursement
+Merchant = Yard Freight
+Receipt date = 2026/10/15
+Tax = $0
+Amount due = $968.25

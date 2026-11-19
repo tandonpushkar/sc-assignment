@@ -1,0 +1,286 @@
+{
+  "tesseract": {
+    "exactFinancialFields": {
+      "correct": 23,
+      "total": 23,
+      "percent": 100
+    },
+    "exactFlagSet": {
+      "correct": 8,
+      "total": 8,
+      "percent": 100
+    },
+    "flagRecall": {
+      "correct": 3,
+      "total": 3,
+      "percent": 100
+    },
+    "flagPrecision": {
+      "correct": 3,
+      "total": 3,
+      "percent": 100
+    },
+    "pages": [
+      {
+        "id": "site-A",
+        "predicted": [
+          "120045.80",
+          "-4016.35",
+          "116029.45"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-B",
+        "predicted": [
+          "902710.00",
+          "-2400.00",
+          "905110.00"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [
+          "Revised contract (USD)|Amount mismatch"
+        ],
+        "caught": 1,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-C",
+        "predicted": [
+          "68003.19",
+          "904.08",
+          "68907.27"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-D",
+        "predicted": [
+          "40050.00",
+          null,
+          "40100.00"
+        ],
+        "correctPrinted": 2,
+        "printed": 2,
+        "flags": [
+          "Change (USD)|Missing"
+        ],
+        "caught": 1,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-E",
+        "predicted": [
+          "7500.00",
+          "-0.89",
+          "7499.11"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-F",
+        "predicted": [
+          "1012301.50",
+          "-15000.50",
+          "997300.00"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [
+          "Revised contract (USD)|Amount mismatch"
+        ],
+        "caught": 1,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-G",
+        "predicted": [
+          "95885.35",
+          "0.00",
+          "95885.35"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-H",
+        "predicted": [
+          "144008.99",
+          "1.02",
+          "144010.01"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      }
+    ]
+  },
+  "executorch": {
+    "exactFinancialFields": {
+      "correct": 23,
+      "total": 23,
+      "percent": 100
+    },
+    "exactFlagSet": {
+      "correct": 8,
+      "total": 8,
+      "percent": 100
+    },
+    "flagRecall": {
+      "correct": 3,
+      "total": 3,
+      "percent": 100
+    },
+    "flagPrecision": {
+      "correct": 3,
+      "total": 3,
+      "percent": 100
+    },
+    "pages": [
+      {
+        "id": "site-A",
+        "predicted": [
+          "120045.80",
+          "-4016.35",
+          "116029.45"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-B",
+        "predicted": [
+          "902710.00",
+          "-2400.00",
+          "905110.00"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [
+          "Revised contract (USD)|Amount mismatch"
+        ],
+        "caught": 1,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-C",
+        "predicted": [
+          "68003.19",
+          "904.08",
+          "68907.27"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-D",
+        "predicted": [
+          "40050.00",
+          null,
+          "40100.00"
+        ],
+        "correctPrinted": 2,
+        "printed": 2,
+        "flags": [
+          "Change (USD)|Missing"
+        ],
+        "caught": 1,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-E",
+        "predicted": [
+          "7500.00",
+          "-0.89",
+          "7499.11"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-F",
+        "predicted": [
+          "1012301.50",
+          "-15000.50",
+          "997300.00"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [
+          "Revised contract (USD)|Amount mismatch"
+        ],
+        "caught": 1,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-G",
+        "predicted": [
+          "95885.35",
+          "0.00",
+          "95885.35"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      },
+      {
+        "id": "site-H",
+        "predicted": [
+          "144008.99",
+          "1.02",
+          "144010.01"
+        ],
+        "correctPrinted": 3,
+        "printed": 3,
+        "flags": [],
+        "caught": 0,
+        "missed": 0,
+        "extra": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+CAFÉ MUÑOZ
+Merchant: Café Muñoz
+Date: 2026-11-09
+Subtotal: $15.00
+Tax: $1.20
+Total: $16.20

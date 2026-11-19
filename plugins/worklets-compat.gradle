@@ -1,0 +1,19 @@
+// SDK 55's Expo Modules Core links Worklets from the previous AGP intermediates path.
+// Materialize that path from the current AGP output for each requested ABI and variant.
+gradle.projectsEvaluated {
+    def worklets = project(':react-native-worklets')
+    def core = project(':expo-modules-core')
+    ['Debug': 'Debug', 'Release': 'RelWithDebInfo'].each { variant, cmakeConfig ->
+        def lower = variant.toLowerCase(Locale.ROOT)
+        def merge = worklets.tasks.named("merge${variant}NativeLibs")
+        def compat = worklets.tasks.register("prepare${variant}WorkletsForExpo", Copy) {
+            dependsOn merge
+            from(worklets.layout.buildDirectory.dir("intermediates/merged_native_libs/${lower}/merge${variant}NativeLibs/out/lib"))
+            include '**/libworklets.so'
+            into(worklets.layout.buildDirectory.dir("intermediates/cmake/${lower}/obj"))
+        }
+        core.tasks.matching { it.name.startsWith("buildCMake${cmakeConfig}") }.configureEach {
+            dependsOn compat
+        }
+    }
+}

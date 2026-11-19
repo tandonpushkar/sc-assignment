@@ -1,0 +1,105 @@
+[
+  {
+    "id": "invoice",
+    "title": "Aggregate delivery",
+    "kind": "Invoice",
+    "docs": [
+      {
+        "name": "site-invoice.pdf",
+        "pages": [
+          {
+            "text": "NORTH QUARRY SUPPLY / COMMERCIAL\r\nMaterial invoice\r\nVendor: North Quarry Supply\r\nInvoice #: INV-1048\r\nInvoice date: 2026-11-07\r\nPO #: PO-221\r\nItem: Graded aggregate\r\nInvoice total: $1,250.00\r\nWEST YARD / SYNTHETIC DEMONSTRATION DOCUMENT",
+            "method": "PDF text"
+          }
+        ]
+      },
+      {
+        "name": "accounts-scan.jpg",
+        "pages": [
+          {
+            "text": "NORTH QUARRY / ACCOUNTS COPY\nVendor: North Quarry Supply\nInvoice #: INV-1048\n\nInvoice date: 2026-11-07\n\nPO #: PO-221\n\nInvoice total: $1,205.00\nReceived at West Yard",
+            "method": "OCR"
+          }
+        ]
+      }
+    ],
+    "decisions": {}
+  },
+  {
+    "id": "order",
+    "title": "Aggregate purchase",
+    "kind": "Purchase order",
+    "docs": [
+      {
+        "name": "purchase-order.pdf",
+        "pages": [
+          {
+            "text": "NORTH QUARRY SUPPLY / COMMERCIAL\r\nPurchase order\r\nSupplier: North Quarry Supply\r\nPO #: PO-221\r\nOrder date: 2026-11-04\r\nItem: Graded aggregate\r\nQuantity: 25 tons\r\nOrder total: $1,250.00\r\nWEST YARD / SYNTHETIC DEMONSTRATION DOCUMENT",
+            "method": "PDF text"
+          }
+        ]
+      }
+    ],
+    "decisions": {}
+  },
+  {
+    "id": "fuel",
+    "title": "Fuel receipt",
+    "kind": "Receipt",
+    "docs": [
+      {
+        "name": "fuel-receipt.txt",
+        "pages": [
+          {
+            "text": "WEST YARD / FUEL STOP\nMerchant = Haulway Fuel\nDate: 2026-11-08\nReceipt total: $86.40\nTax: \n",
+            "method": "Text"
+          }
+        ]
+      }
+    ],
+    "decisions": {}
+  },
+  {
+    "id": "rebar-073",
+    "title": "Rebar delivery",
+    "kind": "Invoice",
+    "decisions": {},
+    "docs": [
+      {
+        "name": "rebar-yard.txt",
+        "pages": [
+          {
+            "text": "WEST YARD    |    DELIVERED MATERIALS\nInvoice No.  RB-073\nVendor\uff1a Summit Steel\nInvoice date = 2026/11/07\nPO No.  PO-117\nInvoice total: USD 4,088.00\nAmount due: $2,088.00\n",
+            "method": "Text"
+          }
+        ]
+      },
+      {
+        "name": "rebar-office.txt",
+        "pages": [
+          {
+            "text": "SUMMIT STEEL  /  AP TRANSCRIPTION\nInvoice number: RB-073\nVendor: SUMMIT STEEL\nInvoice date: 2026-11-07\nPO #: PO-117\nInvoice total: $4,880.00\n",
+            "method": "Text"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "co-014",
+    "title": "Temporary shoring credit",
+    "kind": "Change order",
+    "docs": [
+      {
+        "name": "co-014.txt",
+        "pages": [
+          {
+            "text": "WEST YARD  /  CHANGE ORDER\nChange order #: CO-014\nPrior contract: $250,000.00\nDeduction: $12,500.00\nRevised contract: $262,500.00\nScope: Delete temporary shoring at grid C.\n",
+            "method": "Text"
+          }
+        ]
+      }
+    ],
+    "decisions": {}
+  }
+]

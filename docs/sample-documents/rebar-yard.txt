@@ -1,0 +1,7 @@
+WEST YARD    |    DELIVERED MATERIALS
+Invoice No.  RB-073
+Vendor： Summit Steel
+Invoice date = 2026/11/07
+PO No.  PO-117
+Invoice total: USD 4,088.00
+Amount due: $2,088.00

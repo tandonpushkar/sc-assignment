@@ -1,0 +1,15 @@
+{
+  "credit": {},
+  "addition": {
+    "Revised contract (USD)": "Amount mismatch"
+  },
+  "incomplete": {
+    "Prior contract (USD)": "Missing"
+  },
+  "receipt": {
+    "Date": "Check format"
+  },
+  "freight": {
+    "Total (USD)": "Conflict"
+  }
+}

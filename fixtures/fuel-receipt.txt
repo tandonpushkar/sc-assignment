@@ -1,0 +1,5 @@
+WEST YARD / FUEL STOP
+Merchant = Haulway Fuel
+Date: 2026-11-08
+Receipt total: $86.40
+Tax: 

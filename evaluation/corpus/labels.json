@@ -1,0 +1,202 @@
+{
+  "inv-clean-pdf": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00",
+      "Invoice number": "inv4471",
+      "Date": "2026-11-04"
+    }
+  },
+  "inv-multipage-pdf": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00"
+    }
+  },
+  "inv-pdf-and-photo-agree": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00"
+    }
+  },
+  "inv-pdf-and-scan-disagree": {
+    "flags": {
+      "Total (USD)": "Conflict"
+    },
+    "values": {}
+  },
+  "inv-partial-payment": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1500.00"
+    }
+  },
+  "inv-missing-po": {
+    "flags": {
+      "Purchase order": "Missing"
+    },
+    "values": {}
+  },
+  "inv-ambiguous-date": {
+    "flags": {
+      "Date": "Check format"
+    },
+    "values": {}
+  },
+  "inv-written-date": {
+    "flags": {},
+    "values": {
+      "Date": "2026-11-04"
+    }
+  },
+  "inv-dark-mode-screenshot": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00"
+    }
+  },
+  "inv-digital-with-logo": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00"
+    }
+  },
+  "inv-sideways-photo": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00"
+    }
+  },
+  "po-clean-pdf": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00",
+      "Purchase order": "po221"
+    }
+  },
+  "po-quantity-conflict": {
+    "flags": {
+      "Quantity": "Conflict"
+    },
+    "values": {}
+  },
+  "po-rotated-scan": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "1250.00"
+    }
+  },
+  "receipt-skewed-photo": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "16.20",
+      "Tax (USD)": "1.20"
+    }
+  },
+  "receipt-missing-tax": {
+    "flags": {
+      "Tax (USD)": "Missing"
+    },
+    "values": {}
+  },
+  "receipt-zero-tax": {
+    "flags": {},
+    "values": {
+      "Tax (USD)": "0.00"
+    }
+  },
+  "receipt-transparent-png": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "16.20"
+    }
+  },
+  "receipt-windows-text": {
+    "flags": {},
+    "values": {
+      "Total (USD)": "16.20"
+    }
+  },
+  "receipt-labelled-with-rate": {
+    "flags": {},
+    "values": {
+      "Tax (USD)": "1.24"
+    }
+  },
+  "co-correct-pdf": {
+    "flags": {},
+    "values": {
+      "Revised contract (USD)": "237500.00"
+    }
+  },
+  "co-wrong-sum-scan": {
+    "flags": {
+      "Revised contract (USD)": "Amount mismatch"
+    },
+    "values": {}
+  },
+  "co-credit-in-parentheses": {
+    "flags": {},
+    "values": {
+      "Change (USD)": "-12500.00"
+    }
+  },
+  "co-missing-change": {
+    "flags": {
+      "Change (USD)": "Missing"
+    },
+    "values": {}
+  },
+  "co-copies-disagree": {
+    "flags": {
+      "Change (USD)": "Conflict",
+      "Revised contract (USD)": "Conflict"
+    },
+    "values": {}
+  },
+  "co-mixed-text-and-scan-correct": {
+    "flags": {},
+    "values": {
+      "Revised contract (USD)": "41500.00"
+    }
+  },
+  "co-mixed-text-and-scan-wrong": {
+    "flags": {
+      "Revised contract (USD)": "Amount mismatch"
+    },
+    "values": {}
+  },
+  "co-multipage-tiff": {
+    "flags": {},
+    "values": {
+      "Revised contract (USD)": "82500.00"
+    }
+  },
+  "co-dim-skewed-photo": {
+    "flags": {},
+    "values": {
+      "Change (USD)": "-12500.00"
+    }
+  },
+  "co-low-res-photo": {
+    "flags": {},
+    "values": {
+      "Revised contract (USD)": "237500.00"
+    },
+    "tolerant": true
+  },
+  "co-tiny-thumbnail": {
+    "flags": {},
+    "values": {
+      "Revised contract (USD)": "237500.00"
+    },
+    "tolerant": true
+  },
+  "co-slashed-zero-font": {
+    "flags": {},
+    "values": {
+      "Revised contract (USD)": "41500.00"
+    },
+    "tolerant": true
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+.DS_Store
+.venv/
+__pycache__/
+/android/
+/ios/
+build/
+.cxx/
+.gradle/

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "invoice",
+    "title": "Aggregate delivery",
+    "kind": "Invoice",
+    "files": [
+      "site-invoice.pdf",
+      "accounts-scan.jpg"
+    ]
+  },
+  {
+    "id": "order",
+    "title": "Aggregate purchase",
+    "kind": "Purchase order",
+    "files": [
+      "purchase-order.pdf"
+    ]
+  },
+  {
+    "id": "fuel",
+    "title": "Fuel receipt",
+    "kind": "Receipt",
+    "files": [
+      "fuel-receipt.txt"
+    ]
+  },
+  {
+    "id": "rebar-073",
+    "title": "Rebar delivery",
+    "kind": "Invoice",
+    "files": [
+      "rebar-yard.txt",
+      "rebar-office.txt"
+    ]
+  },
+  {
+    "id": "co-014",
+    "title": "Temporary shoring credit",
+    "kind": "Change order",
+    "files": [
+      "co-014.txt"
+    ]
+  }
+]

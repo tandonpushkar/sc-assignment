@@ -1,0 +1,10 @@
+{
+  "site-A": {"amounts":["120045.80","-4016.35","116029.45"],"flags":[]},
+  "site-B": {"amounts":["902710.00","-2400.00","905110.00"],"flags":["Revised contract (USD)|Amount mismatch"]},
+  "site-C": {"amounts":["68003.19","904.08","68907.27"],"flags":[]},
+  "site-D": {"amounts":["40050.00",null,"40100.00"],"flags":["Change (USD)|Missing"]},
+  "site-E": {"amounts":["7500.00","-0.89","7499.11"],"flags":[]},
+  "site-F": {"amounts":["1012301.50","-15000.50","997300.00"],"flags":["Revised contract (USD)|Amount mismatch"]},
+  "site-G": {"amounts":["95885.35","0.00","95885.35"],"flags":[]},
+  "site-H": {"amounts":["144008.99","1.02","144010.01"],"flags":[]}
+}

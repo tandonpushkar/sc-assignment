@@ -1,0 +1,43 @@
+[
+  {
+    "id": "credit",
+    "title": "credit",
+    "kind": "Change order",
+    "files": [
+      "credit.txt"
+    ]
+  },
+  {
+    "id": "addition",
+    "title": "addition",
+    "kind": "Change order",
+    "files": [
+      "addition.txt"
+    ]
+  },
+  {
+    "id": "incomplete",
+    "title": "incomplete",
+    "kind": "Change order",
+    "files": [
+      "incomplete.txt"
+    ]
+  },
+  {
+    "id": "receipt",
+    "title": "receipt",
+    "kind": "Receipt",
+    "files": [
+      "receipt.txt"
+    ]
+  },
+  {
+    "id": "freight",
+    "title": "Local freight",
+    "kind": "Receipt",
+    "files": [
+      "freight-site.txt",
+      "freight-office.txt"
+    ]
+  }
+]
